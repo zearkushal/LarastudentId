@@ -16,7 +16,7 @@ A web-based system built with Laravel that allows students to register, log in, 
 
 ## 🛠️ Tech Stack
 
-- **Laravel**: 10.x (Laravel Installer 5.15.0)
+- **Laravel**: 11.x (Laravel Installer 5.15.0)
 - **Composer**: v2.8.9
 - **Node.js**: v22.16.0
 - **Blade Templates** + **Bootstrap** for frontend
@@ -52,9 +52,9 @@ cp .env.example .env
 php artisan key:generate
 
 # 6. Set your DB credentials in the .env file
-# DB_DATABASE=your_db
-# DB_USERNAME=your_user
-# DB_PASSWORD=your_password
+# DB_DATABASE=studentid
+# DB_USERNAME=root
+# DB_PASSWORD=
 
 # 7. Run migrations
 php artisan migrate
